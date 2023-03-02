@@ -1,0 +1,26 @@
+.introFotos {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+    i {
+        font-size: 2rem;
+        color: $color_1;
+        padding: 1rem;
+    }
+}
+
+.imagenGaleria {
+    border-radius: 1rem;
+    padding: 0.4rem;
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(50%);
+
+    &:hover {
+        filter: grayscale(0%);
+        transform: scale(1.03);
+    }
+}
